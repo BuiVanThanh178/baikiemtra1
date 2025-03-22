@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header với Logo và Thanh điều hướng -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" width="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="register.html">Đăng ký </a></li>
+                <li><a href="login.html">Đăng nhập</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Phần nội dung chính -->
+    <main>
+        <section class="login">
+            <h1>Đăng Nhập</h1>
+            <p>Vui lòng nhập thông tin để đăng nhập vào tài khoản của bạn.</p>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn submit">Đăng Nhập</button>
+            </form>
+            <div class="links">
+                <p>Chưa có tài khoản? <a href="register.html">Đăng Ký</a></p>
+                <p>Quên mật khẩu? <a href="reset-password.html">Reset Mật Khẩu</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Bản quyền thuộc về Trang Web. Mọi quyền được bảo lưu.</p>
+    </footer>
+</body>
+</html>
